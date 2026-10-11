@@ -1,0 +1,179 @@
+.Product-card-1 {
+    font-weight: bold;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Product-card-2 {
+    font-weight: bold;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Product-card-3 {
+    font-weight: bold;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Product-card-4 {
+    font-weight: bold;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Product-card-5 {
+    font-weight: bold;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Product-card-6 {
+    font-weight: bold;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Product-card-7 {
+    font-weight: bold;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}  
+.Product-card-1 h3 {
+    color: goldenrod;
+}
+.Product-card-2 h3 {
+    color: black;
+}
+.Product-card-3 h3 {
+    color: #c0b9b9;
+}
+.Product-card-4 h3 {
+    color: red;
+}
+.Product-card-5 h3 {
+    color: grey;
+}
+.Product-card-6 h3 {
+    color: blue;
+}
+.Product-card-7 h3 {
+    color: green;
+}
+.Product-card-1 p {
+    color: goldenrod;
+}
+.Product-card-2 p {
+    color: black;
+}
+.Product-card-3 p {
+    color: #c0b9b9;
+}
+.Product-card-4 p {
+    color: red;
+}
+.Product-card-5 p {
+    color: grey;
+}
+.Product-card-6 p {
+    color: blue;
+}
+.Product-card-7 p {
+    color: green;
+}
+.Product-card-1 img {
+    width: 100%;
+    height: auto;
+}
+.Product-card-2 img {
+    width: 100%;
+    height: auto;
+}
+.Product-card-3 img {
+    width: 100%;
+    height: auto;
+}
+.Product-card-4 img {
+    width: 100%;
+    height: auto;
+}
+.Product-card-5 img {
+    width: 100%;
+    height: auto;
+}
+.Product-card-6 img {
+    width: 100%;
+    height: auto;
+}
+.Product-card-7 img {
+    width: 100%;
+    height: auto;
+}
+body {
+    background-color: #0b0b0e;
+    background-image: 
+        /* Radial ambient light in center */
+        radial-gradient(circle at 50% 30%, rgba(218, 165, 32, 0.18), transparent 70%),
+        /* Mini diamond street grid */
+        linear-gradient(135deg, rgba(255, 255, 255, 0.03) 25%, transparent 25%),
+        linear-gradient(225deg, rgba(255, 255, 255, 0.03) 25%, transparent 25%),
+        linear-gradient(45deg, rgba(255, 255, 255, 0.03) 25%, transparent 25%),
+        linear-gradient(315deg, rgba(255, 255, 255, 0.03) 25%, #0b0b0e 25%);
+    background-position: 0 0, 20px 0, 20px -20px, 0px 20px, 0 0;
+    background-size: 100% 100%, 40px 40px, 40px 40px, 40px 40px, 40px 40px;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    color: #ffffff;
+}
+header {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: goldenrod;
+}
+.Product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+/* Hover lift effect for cards */
+.Product-container > div:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(218, 165, 32, 0.35);
+}
