@@ -7,7 +7,7 @@ A clean, modern, and interactive product display page for **Lugz Footwear**, bui
 ## 🌐 Live Demo
 
 Check out the live page here:
-👉 **[View Lugz Footwear Live Page](https://your-username.github.io/lugz-footwear/)**
+👉 **[View Lugz Footwear Live Page](https://mted39313-cmd.github.io/mali/)**
 
 ---
 
@@ -22,7 +22,7 @@ Check out the live page here:
 ---
 
 ## Clone the repository
-git clone [https://github.com/your-username/lugz-footwear.git](https://github.com/your-username/lugz-footwear.git)
+git clone [https://github.com/mted39313-cmd/mali.git](https://github.com/mted39313-cmd/mali.git)
 
 ## Navigate into the project directory
 cd mali
@@ -35,11 +35,3 @@ lugz-footwear/
 ├── style.css         # Custom CSS stylesheet (Flexbox, gradients, animations)
 ├── README.md         # Project documentation and setup guide
 └── assets/           # Optional local image folder (if using local images)
-
-
-
-## Clone the repository
-git clone [https://github.com/your-username/lugz-footwear.git](https://github.com/your-username/lugz-footwear.git)
-
-## Navigate into the project directory
-cd lugz-footwear
